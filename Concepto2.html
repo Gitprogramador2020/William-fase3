@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovi Diseño Web</title>
+    <link rel="stylesheet" href="Estilo.css">
+
+</head>
+<body>
+    <h1 class="titulo">Estructura básica de html5<h1>
+        <nav class="menu">
+        <a href="Inicio.html">Inicio</a>  -
+        <a href="Concepto1.html">Concepto</a> -
+        <a href="Recurso1.html">Recurso</a>  -
+        <a href="Autoevaluacion1.html">Autoevalución</a> -
+        <a href="Autor.html">Autor</a> 
+    </nav>
+    <h2 class="titulo"> Estructura básica de HTML5</h2>
+    <p class="titulo2">
+        Una estructura HTML se empieza con la etiqueta <"html"> y acaba con <"/html">. 
+        Todo lo que esté en medio será la página web. 
+        Dentro de <"html"><"/html"> se encuentran 2 partes diferenciadas.La primera <"head"><"/head"> es la cabecera de la página.
+        Aquí irán cierta información que no es directamente el contenido de la página.
+        Aquí se pone el título de la página, los metadatos, estilos, código javascript.<br> <br>
+        La segunda parte es < body> < /body >. 
+        Aquí va propiamente el contenido de la página: fotos, párrafos, formularios, etc. Por ejemplo, 
+        siguiendo con el ejemplo de, el siguiente código, podemos cambiar el título de la página.<br><br>  
+    </p>
+    <br>
+    <img src="Captura 1.JPG" alt="HTML5"> <BR>
+    <P class="titulo2">
+        
+    •	< !DOCTYPE html> Lo primero que nos encontramos es la declaración del tipo de documento que se está mostrando. El DOCTYPE variará según el tipo de documento realizado, en nuestro ejemplo hemos utilizado el doctype del HTML5 que es maravillosamente sencillo.<br>
+    •	html Tras declarar el tipo de documento, indicamos que iniciamos nuestro documento HTML. Esta etiqueta se cierra cuando finalizamos el documento. Vemos que lleva un atributo lang, esto sirve para indicar el idioma del documento (en nuestro caso español)<br>
+    •	head En un documento HTML tenemos una cabecera dónde colocaremos los metadatos de la página, el código JavaScript y el CSS que utilizará el navegador para renderizar la página.<br>
+    •	meta charset Obligatorio en HTML5, informa el juego de caracteres del documento, debería ser siempre utf-8. Como todo metadato debe ir dentro del head.<br>
+    •	title Es un tipo de metadato especial que nos proporciona el título de la página. Por motivos de posicionamiento (SEO) se recomienda que el meta title sea parecido al H1 del documento y a la URL de la página.<br>
+    •	body En su interior tendremos el contenido de la página.<br>
+      </P>
+      <br>
+    <h2 class="titulo"> Lo nuevo HTML5</h2>
+    <p class="titulo2">
+        HTML5 ha venido a solucionar, entre otras cosas, la falta de un criterio para definir el contenido semántico de una página web agregando una serie de
+        etiquetas destinadas a facilitar la estructura del documento desde el punto de vista de su significado. <br>
+        <br>
+        •	section: Esta etiqueta sirve para agrupar elementos relacionados entre sí de forma temática. Los section creados a nivel del body serán aquellos cuyo contenido de significado a la página, o sea, formen el contenido principal de la misma.<br>
+        •	article: Esta etiqueta es «la última etiqueta con significado semántico». Habitualmente se utiliza dentro de un section para separar las unidades de contenido con significado semántico.<br>
+        •	header: Creada para incluir información destinada a ayudar en la navegación. Suele incluir un H1 y, de declararse a nivel de body, la etiqueta nav.<br>
+        •	nav: Esta etiqueta la utilizaremos para incluir el menú de navegación.<br>
+        •	footer: Destinada a incluir la información sobre el elemento que lo contiene (autoría, propiedad, enlaces…)<br>
+        •	aside: Su uso indicado es para agrupar el contenido a visualizar en la página, pero que no forma parte del contenido principal de la página.<br>
+        <br>
+        Estas nuevas etiquetas permiten varios niveles de anidamiento entre sí. Por ejemplo, un section (por definición del estándar) debe tener un header y un footer, además de los article necesarios, pudiendo incluso tener otros section en su interior.<br>
+        A nivel de body también podemos tener un header y footer, estando dentro del header la etiqueta nav con el menú del sitio web.<br>
+        Los aside también pueden estar a nivel de body, section e incluso article.<br>
+        Todo esto aporta un alto grado de complejidad a la estructura del documento, aunque aporta una enorme flexibilidad para estructurar correctamente el contenido de la página desde le punto de vista semántico.
+    </p>
+    </body>
+</html>
