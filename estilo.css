@@ -8,7 +8,9 @@ background: #13B4B9;
 #centrado{
 text-align:center;
 }
-
+a{
+    font-size: 30px;
+}
 
 #datos{
 margin-top: 4%;
