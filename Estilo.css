@@ -1,9 +1,29 @@
-
-.html{
-	background-color:#36F;
+.naranja{
+    color: #F47920;
 }
-.body{
-background: #13B4B9;
+.gris{
+    color: rgb(185, 185, 185);
+}
+.html{
+	background-color:rgb(28, 99, 146);
+}
+.footer{
+    background-color: rgb(24, 35, 189);
+}
+.desplegable{
+    font-size: 22px;
+}
+.UNAD{
+    float: left;
+    width: 70%;
+}
+.anuncio{
+    float: right;
+    width: 30%;
+    align-items: center;
+}
+.centrar{
+    align-items: center;
 }
 #centrado{
 text-align:center;
@@ -20,6 +40,7 @@ margin-left: 15%;
 background: rgba(169, 225, 225);
 width: 50%;
 border-radius: 5%;
+text-align: center;
 }
 .thead{
 	text-align:center;
@@ -39,9 +60,9 @@ table{
 .titulo {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
 }
 .menu {
-    background-color:#F47920;
     padding:30px;
     width: auto;
     text-size-adjust: 10px;
